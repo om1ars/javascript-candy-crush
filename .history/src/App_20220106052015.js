@@ -171,7 +171,6 @@ const App = () => {
 
     return (
         <div className="app">
-          <h1>Hello</h1>
             <div className="game">
                 {currentColorArrangement.map((candyColor, index) => (
                     <img
